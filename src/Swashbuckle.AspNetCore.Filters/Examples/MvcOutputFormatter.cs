@@ -66,7 +66,7 @@ namespace Swashbuckle.AspNetCore.Filters
 
             if (value == null)
             {
-                return string.Empty;
+                return "\"null\"";
             }
 
             using (var stringWriter = new StringWriter())
